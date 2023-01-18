@@ -1,0 +1,13 @@
+{
+  "name": "abiblock",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/grgshiji/abiblock",
+    "ssh": "git@github.com:grgshiji/abiblock.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
